@@ -1,0 +1,10 @@
+
+$bgcolor: #000000 !default;
+
+.bgimg {
+    background-color: $bgcolor;
+}
+
+.bgcardbody {
+    @extend .bgimg
+}
